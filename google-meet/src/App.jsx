@@ -1,12 +1,15 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
+import ControlBar from "./components/ControlBar/ControlBar";
+
 
 function App() {
+
   return (
     <>
-      <HeaderBar />
+      {/* <HeaderBar />
       <MainVideoArea />
-      <EmojiBar />
+      <EmojiBar /> */}
       <ControlBar />
     </>
   );

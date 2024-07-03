@@ -1,0 +1,32 @@
+p {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.center-svg path {
+    fill: rgb(238, 240, 238);
+}
+
+
+
+.menu-container {
+    display: flex;
+    gap: 5px
+}
+
+.menu-container p:nth-child(2),
+.menu-container p:nth-child(4) {
+    margin-left: -20px;
+}
+
+.menu-container p:last-child {
+    width: 80px;
+    background-color: red;
+    border-radius: 50px;
+}
