@@ -1,10 +1,9 @@
 import menuIcons from "../../assets/icons"
-
-
 import "./Menu.css"
 
+// Jedes Symbol zeigt nach dem Anklicken einen anderen Status an. Ist es nicht möglich, dafür eine Map zu verwenden?
 
-const Menu = () => {
+const MenuStatic = () => {
 
     return (
         <div>
@@ -16,7 +15,7 @@ const Menu = () => {
     );
 }
 
-export default Menu;
+export default MenuStatic;
 
 
 

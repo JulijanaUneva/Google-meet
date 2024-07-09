@@ -1,9 +1,18 @@
 
-import Menu from '../Menu/Menu';
+import MenuStatic from '../Menu/MenuStatic';
+import MenuDynamic from '../Menu/MenuDynamic';
+
 const ControlBar = () => {
-    return (
-        <Menu />
+    return (<>
+        {/* <MenuStatic /> */}
+        <MenuDynamic />
+
+    </>
     );
 }
 
 export default ControlBar;
+
+
+
+
