@@ -1,13 +1,13 @@
-import { useState } from "react";
 import "./App.css";
+import MainVideoArea from "./components/MainVideoArea/MainVideoArea.jsx";
 
 function App() {
   return (
     <>
-      <HeaderBar />
+      {/* <HeaderBar /> */}
       <MainVideoArea />
-      <EmojiBar />
-      <ControlBar />
+      {/* <EmojiBar />
+      <ControlBar /> */}
     </>
   );
 }
