@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+MenuTest.jsx
+
+
+# fortawesome/react-fontawesome
+fontawesome-free-6.5.2-web
