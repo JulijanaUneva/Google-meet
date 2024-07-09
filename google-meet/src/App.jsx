@@ -8,8 +8,9 @@ function App() {
         <>
             <HeaderBar />
             <MainVideoArea />
-            <EmojiBar />
-            <ControlBar />
+            {/* <EmojiBar />
+            <ControlBar /> */}
+            <RealTimeClock />
         </>
     );
 }
