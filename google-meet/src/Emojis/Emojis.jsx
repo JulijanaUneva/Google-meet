@@ -3,7 +3,7 @@ import "./Emojis.css";
 const Emojis = () => {
     return (
         <div className='emojis'>
-            <p>💖 👍 🎉 👏  😂 😮 😢 🤔 👎</p>
+            💖 👍 🎉 👏  😂 😮 😢 🤔 👎
         </div>
     );
 }

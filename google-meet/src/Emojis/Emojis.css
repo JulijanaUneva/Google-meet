@@ -9,6 +9,7 @@
     border-radius: 30px;
     border: 2px solid rgb(130, 128, 128);
     background-color: rgb(93, 92, 92);
-    width: 15vw;
+    width: 25vw;
     height: 5vh;
+    align-items: center;
 }
