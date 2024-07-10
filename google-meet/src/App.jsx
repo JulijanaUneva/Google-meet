@@ -14,8 +14,8 @@ function App() {
       <HeaderBar />
       <MainVideoArea />
       <Emojis />
-      <ControlBar />
       <RealTimeClock />
+      <ControlBar />
     </>
   );
 
