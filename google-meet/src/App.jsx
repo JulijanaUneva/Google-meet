@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-
+import EmojiBar from "./EmojiBar/EmojiBar";
 function App() {
   return (
     <>
-      <HeaderBar />
-      <MainVideoArea />
+      
       <EmojiBar />
-      <ControlBar />
+      
     </>
   );
 }
