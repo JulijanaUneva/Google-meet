@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import EmojiBar from "./EmojiBar/EmojiBar";
+import Emojis from "./Emojis/Emojis";
 function App() {
   return (
     <>
       
-      <EmojiBar />
+      <Emojis />
       
     </>
   );

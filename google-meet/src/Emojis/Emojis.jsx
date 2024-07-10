@@ -1,11 +1,11 @@
 import React from 'react';
-import "./EmojiBar.css";
-const EmojiBar = () => {
+import "./Emojis.css";
+const Emojis = () => {
     return (
-        <div className='emoji'>
+        <div className='emojis'>
             <p>💖 👍 🎉 👏  😂 😮 😢 🤔 👎</p>
         </div>
     );
 }
 
-export default EmojiBar;
+export default Emojis;
