@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 body {
     background-color: black;
 }
