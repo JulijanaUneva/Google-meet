@@ -3,14 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 26px;
 }
+
 body {
     background-color: black;
 }
+
 .header-container {
     width: 100vw;
     height: 40px;
@@ -38,7 +42,8 @@ body {
 }
 
 .right-icon {
-    background-color: inherit; /* Erbt die Hintergrundfarbe des Elternelements */
+    background-color: inherit;
+    /* Erbt die Hintergrundfarbe des Elternelements */
     color: inherit;
     max-width: 100%;
     max-height: 100%;
