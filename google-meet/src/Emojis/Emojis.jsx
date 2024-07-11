@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./Emojis.css";
 const Emojis = () => {
     return (
