@@ -2,7 +2,7 @@
   position: relative;
   min-width: 200px;
   height: 200px;
-  /* border: 1px solid #ccc; */
+  border: 1px solid #3c4043;
   border-radius: 10px;
   background-color: #3c4043;
   display: flex;
