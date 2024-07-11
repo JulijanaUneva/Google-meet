@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable react/prop-types */
+import { useState, useEffect } from "react";
 import "./ParticipantSquare.css";
 
 const getRandomColor = () => {
@@ -12,8 +13,23 @@ const getRandomColor = () => {
 };
 
 const ParticipantSquare = ({ name, photo }) => {
+  const [borderColor, setBorderColor] = useState("");
+  const [bgColor, setBgColor] = useState("");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBorderColor(Math.random() < 0.03 ? "blue" : "");
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // useEffect(() => {
+  //   setBgColor(getRandomColor());
+  // }, []);
+
   const initial = name.charAt(0).toUpperCase();
-  const bgColor = getRandomColor();
+  // const bgColor = getRandomColor();
 
   return (
     <div className="participant-square">
