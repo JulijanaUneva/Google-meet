@@ -49,12 +49,12 @@ const MenuDynamic = () => {
                     <div className="audio-setting">
                         <i className="icon-microphone"></i>
                         <span>Default</span>
-                        <i className="icon-dropdown"></i>
+                        <i className="icon-dropdown right"></i>
                     </div>
                     <div className="audio-setting">
                         <i className="icon-speaker"></i>
                         <span>Default</span>
-                        <i className="icon-dropdown right"></i> {/* 添加一个类名 "right" 来设置位置 */}
+                        <i className="icon-dropdown right"></i>
                     </div>
                     <div className="settings-icon">
                         <i className="icon-settings"></i>
