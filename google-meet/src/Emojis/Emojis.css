@@ -1,13 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .emojis {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border-radius: 30px;
-    /* border: 2px solid rgb(130, 128, 128); */
-    background-color: #2c2c2c;
-    width: 25vw;
-    height: 7vh;
-    align-items: center;
-    font-size: 25px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid rgb(39, 36, 36);
+  background-color: rgb(39, 36, 36);
+  width: 23vw;
+  height: 5vh;
+  align-items: center;
+  gap: 5px;
+}
+
+.emojis button {
+
+  position: relative;
+  background-color: inherit;
+  font-size: 25px;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* .skin{
+    position: relative;
+background-color: inherit;
+font-size: 25px;
+border: none;
+left: 1220px;
+top: -35px;
+cursor: pointer; 
+
+} */
+/* .skinText{
+  
+  font-size: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+  width: 50px;
+   height: 20px;
+   
+   position: relative;
+   left: 435px;
+   top: 35px;
+} */
+
+.emoji-clicked {
+  /* transform: translateX(-50%); */
+  position: relative;
+  top: -75px;
+  left: -400px;
+  font-size: 60px;
+  animation-name: moveUp;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    /* transform: translateY(10vh); */
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
 }
