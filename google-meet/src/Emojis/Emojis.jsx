@@ -10,8 +10,10 @@ const Emojis = () => {
 
     return (
         <div>
+
             <div className='emojis'>
                 {/* {emoji && <h1 key={animateKey} className='emoji-clicked' onAnimationEnd={() => setEmoji("")} >{emoji}</h1>} */}
+
                 {emoji && <h1 className='emoji-clicked' onAnimationEnd={() => setEmoji("")} >{emoji}</h1>}
                 {/* <h5 className='skinText'>{skin}</h5> */}
                 <button onClick={() => { setEmoji("💖"); }} >💖</button>
