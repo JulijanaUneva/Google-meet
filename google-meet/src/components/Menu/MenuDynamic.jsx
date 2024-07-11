@@ -24,9 +24,9 @@ const MenuDynamic = () => {
     // 你遇到的警告是因为在渲染过程中调用了setState，这会导致组件在同一渲染周期内再次渲染。具体来说，MenuDynamic组件在渲染过程中调用了navigate函数，这会尝试更新BrowserRouter组件的状态，从而导致这个警告。
     // 要解决这个问题，你可以使用useEffect钩子来处理导航逻辑，而不是直接在渲染过程中调用navigate。
     useEffect(() => {
-        if (onOff.leave) {
-            navigate('/leave');
-        }
+
+        onOff.leave && navigate('/leave');
+
     }, [onOff.leave, navigate]);
 
 
