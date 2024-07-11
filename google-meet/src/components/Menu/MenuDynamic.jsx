@@ -38,8 +38,29 @@ const MenuDynamic = () => {
             leave: false
         })
 
-    return (
+    return (<>
+
+
         <div style={{ display: 'flex', justifyContent: 'space-between', flexBasis: '66%' }}>
+
+
+            {onOff.audioSet &&
+                <div className="audio-settings-container">
+                    <div className="audio-setting">
+                        <i className="icon-microphone"></i>
+                        <span>Default</span>
+                        <i className="icon-dropdown"></i>
+                    </div>
+                    <div className="audio-setting">
+                        <i className="icon-speaker"></i>
+                        <span>Default</span>
+                        <i className="icon-dropdown right"></i> {/* 添加一个类名 "right" 来设置位置 */}
+                    </div>
+                    <div className="settings-icon">
+                        <i className="icon-settings"></i>
+                    </div>
+                </div>
+            }
             <div className="menu-container">
                 <div style={{ display: 'flex' }}>
                     {/* audioSet */}
@@ -99,6 +120,7 @@ const MenuDynamic = () => {
 
             </div>
         </div >
+    </>
     );
 }
 
