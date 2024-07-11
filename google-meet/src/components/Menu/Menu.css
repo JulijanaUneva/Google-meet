@@ -32,20 +32,59 @@
     border-radius: 50px;
 }
 
-/* body, html, #root {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  } */
 
-/* .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    background-color: #2c2c2c;
-  }
-   */
+.menu-container p:hover::after {
+    background-color: #272727;
+    padding: 5px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    position: absolute;
+    bottom: 140px;
+    z-index: 1;
+    color: #ccc;
+}
+
+.menu-container p:nth-child(1):hover::after {
+    content: 'Audio settings';
+}
+
+.menu-container p:nth-child(2):hover::after {
+    content: var(--hover-content);
+}
+
+.menu-container p:nth-child(3):hover::after {
+    content: 'Video settings';
+}
+
+.menu-container p:nth-child(4):hover::after {
+    content: var(--hover-content);
+}
+
+.menu-container p:nth-child(5):hover::after {
+    content: 'Turn on captions';
+}
+
+.menu-container p:nth-child(6):hover::after {
+    content: 'Send a reaction';
+}
+
+.menu-container p:nth-child(7):hover::after {
+    content: 'Present now';
+}
+
+.menu-container p:nth-child(8):hover::after {
+    content: 'Raise hand';
+}
+
+.menu-container p:nth-child(9):hover::after {
+    content: 'More options';
+}
+
+.menu-container p:nth-child(10):hover::after {
+    content: 'Leave call';
+}
+
+/* ---------------------------------- */
 .menu-container-right {
     display: flex;
     gap: 20px;
