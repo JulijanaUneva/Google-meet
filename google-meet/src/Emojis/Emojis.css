@@ -1,5 +1,9 @@
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .emojis {
    
     margin: 0 auto;
@@ -7,9 +11,41 @@
    justify-content: center;
   text-align: center;
     border-radius: 30px;
-    border: 2px solid rgb(130, 128, 128);
-    background-color: rgb(93, 92, 92);
-    width: 25vw;
+    border: 2px solid rgb(39, 36, 36);
+    background-color: rgb(39, 36, 36);
+    width: 23vw;
     height: 5vh;
     align-items: center;
+    gap: 5px;
 }
+.emojis button {
+  
+  position: relative;
+background-color: inherit;
+font-size: 25px;
+  background-color: none;
+  border: none;
+  cursor: pointer; 
+}
+/* .skin{
+    position: relative;
+background-color: inherit;
+font-size: 25px;
+border: none;
+left: 1220px;
+top: -35px;
+cursor: pointer; 
+
+} */
+/* .skinText{
+  
+  font-size: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+  width: 50px;
+   height: 20px;
+   
+   position: relative;
+   left: 435px;
+   top: 35px;
+} */
