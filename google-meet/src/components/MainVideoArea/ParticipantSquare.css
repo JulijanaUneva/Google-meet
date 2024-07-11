@@ -2,7 +2,7 @@
   position: relative;
   min-width: 200px;
   height: 200px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 10px;
   background-color: #3c4043;
   display: flex;
@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 28px;
   color: white;
 }
 
@@ -38,7 +38,12 @@
   position: absolute;
   top: 5px;
   right: 5px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 50%;
   background-color: #34373a;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

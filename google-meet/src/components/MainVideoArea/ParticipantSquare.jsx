@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable react/prop-types */
 import "./ParticipantSquare.css";
 
@@ -19,8 +20,8 @@ const ParticipantSquare = ({ name, photo }) => {
       <div className="microphone-icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24px"
-          height="24px"
+          width="20px"
+          height="20px"
           color="white"
           viewBox="0 0 24 24"
           fill="white"
