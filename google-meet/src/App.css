@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 body {
-    background-color: black;
+    background-color: #202124;
 }
 .header-container {
     width: 100vw;
@@ -21,11 +21,14 @@ body {
 .bar-container {
     width: 95%;
     height: 100%;
-    background-color: gray;
+    background-color: #3c4043;
     color: white;
     display: flex;
     border-radius: 7px;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
 }
 
 .icon-container {
@@ -45,7 +48,7 @@ body {
     border: none;
 }
 
-svg {
+.header-container svg {
     width: 30px;
     height: 20px;
     margin: 10px;
@@ -64,4 +67,7 @@ svg:hover {
 .time-container {
     display: flex;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
 }
