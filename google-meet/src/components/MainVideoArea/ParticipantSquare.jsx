@@ -24,9 +24,9 @@ const ParticipantSquare = ({ name, photo }) => {
     return () => clearInterval(interval);
   }, []);
 
-  // useEffect(() => {
-  //   setBgColor(getRandomColor());
-  // }, []);
+  useEffect(() => {
+    setBgColor(getRandomColor());
+  }, []);
 
   const initial = name.charAt(0).toUpperCase();
   // const bgColor = getRandomColor();
