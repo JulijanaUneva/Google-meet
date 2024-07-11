@@ -13,7 +13,11 @@ function RealTimeClock() {
 
     return (
         <div className="time-container">
-            <p>{currentTime.toLocaleTimeString()}</p>
+            <p>
+                {
+                    currentTime.toLocaleTimeString(/* [], { hour: '2-digit', minute: '2-digit' } */)
+                }
+            </p>
             <p>/ wiz-etbj-kck</p>
         </div>
     );
