@@ -1,12 +1,3 @@
-// module.exports = {
-//     content: [
-//       './src/**/*.{html,js,jsx,ts,tsx}', // Sucht in diesen Verzeichnissen nach Tailwind-Klassen
-//     ],
-//     theme: {
-//       extend: {},
-//     },
-//     plugins: [],
-//   }
 import React, {useState} from 'react';
 
 import "./Emojis.css"; 

@@ -61,7 +61,7 @@ cursor: pointer;
   animation-name: moveUp;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+  animation-fill-mode: both;
 }
 
 @keyframes moveUp {
@@ -71,7 +71,7 @@ cursor: pointer;
   }
 
   100% {
-    transform: translateY(-300px);
+    transform: translateY(-350px);
     opacity: 0;
   }
 }
