@@ -48,7 +48,7 @@ const ParticipantSquare = ({ name, photo }) => {
               src={image}
               alt="blue-icon"
               color="rgb(102, 157, 246)"
-              width="24px"
+              width="26px"
             />
           </p>
         ) : (
