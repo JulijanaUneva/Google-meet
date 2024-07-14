@@ -3,8 +3,8 @@ import "./ParticipantSquare.css";
 import { useState, useEffect } from "react";
 import image from "../../assets/image.png";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 
 const getRandomColor = () => {
   const letters = "0123456789ABCDEF";
@@ -15,7 +15,7 @@ const getRandomColor = () => {
   return color;
 };
 
-const ParticipantSquare = ({ name, photo }) => {
+const ParticipantSquare = ({ name }) => {
   const [borderColor, setBorderColor] = useState("");
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const ParticipantSquare = ({ name, photo }) => {
               src={image}
               alt="blue-icon"
               color="rgb(102, 157, 246)"
-              width="24px"
+              width="26px"
             />
           </p>
         ) : (
