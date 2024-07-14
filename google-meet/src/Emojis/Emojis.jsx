@@ -25,6 +25,9 @@ const Emojis = () => {
                 <button onClick={() => { setEmoji("😢"); }} >😢</button>
                 <button onClick={() => { setEmoji("🤔"); }} >🤔</button>
                 <button onClick={() => { setEmoji("👎"); }} >👎</button>
+                <button onClick={() => { setEmoji("😠"); }} >😠</button>
+                <button onClick={() => { setEmoji("😴"); }} >😴</button>
+
                 {/* <button onClick={() => { setEmoji("👎"); setAnimateKey(animateKey + 1) }} >👎</button> */}
 
 
